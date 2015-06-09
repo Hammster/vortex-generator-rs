@@ -28,7 +28,7 @@ pub fn main() {
         // define vertex
         let vertex_data = [
             Vertex { pos: [0.0f32,0.0f32], color: [1.0f32,0.0f32,1.0f32] },
-            Vertex { pos: [-0.1f32,0.0f32], color: [1.0f32,0.0f32,1.0f32] },
+            Vertex { pos: [0.1f32,0.0f32], color: [1.0f32,0.0f32,1.0f32] },
             Vertex { pos: [0.0f32,0.2f32], color: [1.0f32,0.0f32,1.0f32] },
             Vertex { pos: [0.3f32,0.3f32], color: [1.0f32,0.0f32,0.0f32] },
             Vertex { pos: [0.3f32,0.4f32], color: [1.0f32,0.0f32,0.0f32] },

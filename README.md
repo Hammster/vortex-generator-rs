@@ -1,7 +1,6 @@
 # vortex-generator-rs
 
-run the development build
+Compile and execute development build
 ```
 cargo run --bin dev
-
 ```
