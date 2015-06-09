@@ -1,0 +1,24 @@
+[package]
+name = "triangle_tool"
+version = "0.1.0"
+authors = ["Hans Koch <mail@hans-koch.me>"]
+
+[[bin]]
+name = "dev"
+path = "src/dev/main.rs"
+
+[dependencies]
+env_logger = "*"
+log = "*"
+cgmath = "*"
+gfx_gl = "*"
+gfx = "*"
+gfx_window_glutin = "*"
+gfx_window_glfw = "*"
+glutin = "*"
+glfw = "*"
+rand = "*"
+time = "*"
+genmesh = "*"
+noise = "*"
+image = "*"
